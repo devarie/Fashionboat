@@ -8,6 +8,8 @@ import Hooker from '../png/pngfind.com-hooker-png-5361315.png'
 import Vip from '../png/pngfind.com-vip-png-1138.png'
 import Vip2 from '../png/pngfind.com-vip-png-352034.png'
 import Zoolander from '../png/zoolander_transparent.png'
+import Meetlint from '../png/kisspng-tape-measures-measurement-measuring-instrument-cli-tape-measure-5adb226a18f486.6475775515243106341022.png'
+import Naaimachine from '../png/sewing-machine-gabecd56f9_640.png'
 
 const ParticlesBackground = () => {
   return (
@@ -42,7 +44,7 @@ const ParticlesBackground = () => {
               value: ['random'],
             },
             move: {
-              decay: 0.02,
+              decay: 0.04,
               direction: 'top',
               enable: true,
               gravity: {
@@ -202,6 +204,26 @@ const ParticlesBackground = () => {
                     src: `${Hooker}`,
                     width: 32,
                     height: 32,
+                    particles: {
+                      size: {
+                        value: 106,
+                      },
+                    },
+                  },
+                  {
+                    src: `${Meetlint}`,
+                    width: 182,
+                    height: 182,
+                    particles: {
+                      size: {
+                        value: 106,
+                      },
+                    },
+                  },
+                  {
+                    src: `${Naaimachine}`,
+                    width: 182,
+                    height: 182,
                     particles: {
                       size: {
                         value: 106,
