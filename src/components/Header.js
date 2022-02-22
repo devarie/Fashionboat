@@ -7,6 +7,7 @@ const StyledHeader = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 150px;
+  margin-bottom: 50px;
   @media (max-width: 768px) {
     height: 2rem;
     margin-top: 140px;
@@ -27,9 +28,12 @@ const Title = styled.h1`
 const HeaderImg = styled.img.attrs({
   src: `${logo}`
 })`
-width: 50vh;
-height: 30vh;
-`;
+width: 750px;
+height: 450px;
+@media (max-width: 768px) {
+width: 350px;
+height: 210px;
+}`
 
 export default function Header() {
   return (

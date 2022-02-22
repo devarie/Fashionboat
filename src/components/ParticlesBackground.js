@@ -2,10 +2,8 @@ import Particles from 'react-tsparticles'
 import Mugatu from '../png/Mugatu.png'
 import Karl from '../png/karl_lagerfeld.png'
 import Cristalglass from '../png/pngfind.com-champagne-glass-png-30808.png'
-import Champagneglass from '../png/pngfind.com-champagne-glass-png-31800.png'
 import FrFashion from '../png/pngfind.com-fashion-png-324784.png'
 import Hooker from '../png/pngfind.com-hooker-png-5361315.png'
-import Vip from '../png/pngfind.com-vip-png-1138.png'
 import Vip2 from '../png/pngfind.com-vip-png-352034.png'
 import Zoolander from '../png/zoolander_transparent.png'
 import Meetlint from '../png/kisspng-tape-measures-measurement-measuring-instrument-cli-tape-measure-5adb226a18f486.6475775515243106341022.png'
@@ -44,7 +42,7 @@ const ParticlesBackground = () => {
               value: ['random'],
             },
             move: {
-              decay: 0.04,
+              decay: 0.01,
               direction: 'top',
               enable: true,
               gravity: {
@@ -117,7 +115,7 @@ const ParticlesBackground = () => {
               },
             },
             shape: {
-              type: ['circle', 'image', 'square', 'polygon', 'character'],
+              type: ['circle', 'image', 'polygon', 'character'],
               options: {
                 image: [
                   {
@@ -157,16 +155,6 @@ const ParticlesBackground = () => {
                     particles: {
                       size: {
                         value: 46,
-                      },
-                    },
-                  },
-                  {
-                    src: `${Vip}`,
-                    width: 32,
-                    height: 32,
-                    particles: {
-                      size: {
-                        value: 76,
                       },
                     },
                   },
