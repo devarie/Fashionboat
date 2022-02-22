@@ -20,7 +20,7 @@ const ParticlesBackground = () => {
             color: {
               value: '#000000',
             },
-            opacity: 0.1,
+            opacity: 0.05,
           },
           fullScreen: {
             enable: true,
@@ -54,7 +54,7 @@ const ParticlesBackground = () => {
                 top: 'none',
                 default: 'destroy',
               },
-              speed: { min: 5, max: 45 },
+              speed: { min: 5, max: 25 },
             },
             number: {
               value: 0,
