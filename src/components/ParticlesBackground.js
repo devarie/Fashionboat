@@ -263,7 +263,7 @@ const ParticlesBackground = () => {
                     font: 'Verdana',
                     width: 162,
                     height: 162,
-                    value: [ '🤡', '🍀', '🍙', '🦄', '⭐️',],
+                    value: [ '🤡', '🦄', '⭐️',],
                     style: '',
                     weight: 400,
                     size: {

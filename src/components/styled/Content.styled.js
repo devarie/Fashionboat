@@ -9,6 +9,24 @@ export const Pricing = styled.div`
   justify-content: space-evenly;
   margin-right: 20px;
   margin-left: 20px;
+  animation-duration: 3.7s;
+animation-name: slidein;
+backface-visibility: hidden;
+
+
+  @keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+    height:100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+    height:100%;
+  }
+}
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
     margin: 100px 20px 250px 20px;
@@ -24,11 +42,11 @@ export const PricingCard = styled.div`
   border-radius: 25px;
   box-shadow: 2px 2px 2px #ccc;
   text-align: center;
+ 
 
   &:hover {
     box-shadow: 6px 6px 6px #ccc;
     transform: translateY(-8px);
-    scale: 130%;
   }
 `
 

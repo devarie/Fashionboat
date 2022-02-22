@@ -30,6 +30,23 @@ const HeaderImg = styled.img.attrs({
 })`
 width: 750px;
 height: 450px;
+animation-duration: 3.7s;
+animation-name: slidein;
+backface-visibility: hidden;
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+    height: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+    height: 100%;
+  }
+}
 @media (max-width: 768px) {
 width: 350px;
 height: 210px;
