@@ -18,7 +18,7 @@ const ParticlesBackground = () => {
             color: {
               value: '#000000',
             },
-            opacity: 0.4,
+            opacity: 0.1,
           },
           fullScreen: {
             enable: true,
@@ -33,7 +33,7 @@ const ParticlesBackground = () => {
               y: 100,
             },
             rate: {
-              quantity: 5,
+              quantity: 1,
               delay: 0.25,
             },
           },
@@ -42,7 +42,7 @@ const ParticlesBackground = () => {
               value: ['random'],
             },
             move: {
-              decay: 0.05,
+              decay: 0.02,
               direction: 'top',
               enable: true,
               gravity: {
@@ -62,13 +62,13 @@ const ParticlesBackground = () => {
             },
             rotate: {
               value: {
-                min: 0,
+                min: 30,
                 max: 360,
               },
               direction: 'random',
               animation: {
                 enable: true,
-                speed: 1,
+                speed: 0.2,
               },
             },
             tilt: {
@@ -80,7 +80,7 @@ const ParticlesBackground = () => {
               },
               animation: {
                 enable: true,
-                speed: 1,
+                speed: 0.5,
               },
             },
             size: {
@@ -155,16 +155,6 @@ const ParticlesBackground = () => {
                     particles: {
                       size: {
                         value: 46,
-                      },
-                    },
-                  },
-                  {
-                    src: `${Champagneglass}`,
-                    width: 32,
-                    height: 32,
-                    particles: {
-                      size: {
-                        value: 76,
                       },
                     },
                   },

@@ -4,9 +4,9 @@ import Excelsiorkayak from '../img/Excelsior-kayak.JPEG'
 
 export const Container = styled.div`
   display: grid;
-  max-width: 98vw;
+  max-width: 100vw;
   min-height: 100vh;
-  margin: 10px 10px 10px 10px;
+  margin: 0px 0px 0px 0px;
   background: url(${Excelsiorimg});
   background-position: center 100 px left;
   background-repeat: no-repeat;

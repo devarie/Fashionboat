@@ -7,7 +7,7 @@ export default function PricingPage() {
         <PricingCard>
           <PricingTitle>9 April 2022</PricingTitle>
           <p>
-            <Price>Die Grande Spectacle</Price>
+            <Price>FASHIONBOAT</Price>
           </p>{' '}
           <PricingFeatures>
             <li>Oude Houthavens</li>
@@ -22,8 +22,8 @@ export default function PricingPage() {
             <Price>Golden Hour@20:00</Price>
           </p>{' '}
           <PricingFeatures>
-            <li>Diverse drankjes zonder calorien</li>
-            <li>Eikenmelange, ijsbergsla, andijvie</li>
+            <li>Skinny Bitch drinks</li>
+            <li>Eikensla en bleekselderij</li>
             <li>Fruit en groente</li>
           </PricingFeatures>
           {/* <Button primary>Get Started</Button> */}
@@ -34,9 +34,9 @@ export default function PricingPage() {
             <Price>$35 inclusief fotografie</Price>
           </p>
           <PricingFeatures>
-            <li>Dior bitch kan weigeren</li>
-            <li>Geen kopieen</li>
+            <li>Vintage ou de Future</li>
             <li>Haute couture</li>
+            <li>La Dior bitch est fanatique..</li>
           </PricingFeatures>
           {/* <Button>Get Started</Button> */}
         </PricingCard>

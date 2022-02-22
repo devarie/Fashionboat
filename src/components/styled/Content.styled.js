@@ -4,10 +4,11 @@ export const Pricing = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: min-content;
-  grid-gap: 100px;
-  align-content: space-between;
-  justify-content: center;
-  margin: 100px 100px;
+  grid-gap: 20px;
+  align-content: space-around;
+  justify-content: space-evenly;
+  margin-right: 20px;
+  margin-left: 20px;
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
     margin: 100px 20px 250px 20px;
@@ -16,8 +17,9 @@ export const Pricing = styled.div`
 `
 
 export const PricingCard = styled.div`
-  color: green;
-  background: palegoldenrod;
+  color: white;
+  background: mediumspringgreen;
+  opacity: 0.9; 
   padding: 10px;
   border-radius: 25px;
   box-shadow: 2px 2px 2px #ccc;
@@ -25,7 +27,7 @@ export const PricingCard = styled.div`
 
   &:hover {
     box-shadow: 6px 6px 6px #ccc;
-    transform: translateY(-4px);
+    transform: translateY(-8px);
     scale: 130%;
   }
 `
@@ -36,7 +38,7 @@ export const PricingTitle = styled.h1`
 `
 
 export const PricingFeatures = styled.ul`
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   text-align: left;
   list-style: none;
   margin-bottom: 20px;
