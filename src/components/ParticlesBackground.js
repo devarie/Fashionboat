@@ -6,7 +6,7 @@ import FrFashion from '../png/pngfind.com-fashion-png-324784.png'
 import Hooker from '../png/pngfind.com-hooker-png-5361315.png'
 import Vip2 from '../png/pngfind.com-vip-png-352034.png'
 import Zoolander from '../png/zoolander_transparent.png'
-import Meetlint from '../png/measurementlint.png'
+import Meetlint from '../png/Measure-Centimeter-Tape-Transparent-PNG.png'
 import Naaimachine from '../png/sewing-machine-gabecd56f9_640.png'
 
 const ParticlesBackground = () => {
@@ -18,7 +18,7 @@ const ParticlesBackground = () => {
             color: {
               value: '#000000',
             },
-            opacity: 0.05,
+            opacity: 0.01,
           },
           fullScreen: {
             enable: true,
@@ -52,7 +52,7 @@ const ParticlesBackground = () => {
                 top: 'none',
                 default: 'destroy',
               },
-              speed: { min: 5, max: 25 },
+              speed: { min: 8, max: 20 },
             },
             number: {
               value: 0,
@@ -62,8 +62,8 @@ const ParticlesBackground = () => {
             },
             rotate: {
               value: {
-                min: 30,
-                max: 360,
+                min: 5,
+                max: 540,
               },
               direction: 'random',
               animation: {
@@ -120,8 +120,8 @@ const ParticlesBackground = () => {
                 image: [
                   {
                     src: `${Mugatu}`,
-                    width: 82,
-                    height: 32,
+                    width: 142,
+                    height: 62,
                     particles: {
                       size: {
                         value: 161,

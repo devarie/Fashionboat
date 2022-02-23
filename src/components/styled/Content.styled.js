@@ -2,47 +2,47 @@ import styled from 'styled-components'
 
 export const Pricing = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 0.95fr);
   grid-template-rows: min-content;
   grid-gap: 20px;
-  align-content: space-around;
-  justify-content: space-evenly;
+  align-items:center;
+  align-self: center;
   margin-right: 20px;
   margin-left: 20px;
   animation-duration: 3.7s;
-animation-name: slidein;
-backface-visibility: hidden;
-
+  animation-name: slidein;
+  backface-visibility: hidden;
 
   @keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 100%;
-    height:100%;
-  }
+    from {
+      margin-left: 100%;
+      width: 100%;
+      height: 100%;
+    }
 
-  to {
-    margin-left: 0%;
-    width: 100%;
-    height:100%;
+    to {
+      margin-left: 0%;
+      width: 100%;
+      height: 100%;
+    }
   }
-}
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
-    margin: 100px 20px 250px 20px;
+    margin: 100px 100px 250px 100px;
     grid-gap: 180px;
   }
 `
 
 export const PricingCard = styled.div`
-  color: white;
+  align-items: center;
+  color: black;
   background: mediumspringgreen;
-  opacity: 0.9; 
+  opacity: 0.88;
   padding: 10px;
-  border-radius: 25px;
+  border-radius: 120px;
   box-shadow: 2px 2px 2px #ccc;
   text-align: center;
- 
+  justify-content: center;
 
   &:hover {
     box-shadow: 6px 6px 6px #ccc;
@@ -53,11 +53,16 @@ export const PricingCard = styled.div`
 export const PricingTitle = styled.h1`
   text-align: center;
   font-weight: 300;
+  margin: auto;
+  justify-content: center;
 `
 
 export const PricingFeatures = styled.ul`
+    display: grid;
+    align-items: center;
+  justify-content: center;
   font-size: 1.8rem;
-  text-align: left;
+  text-align: center;
   list-style: none;
   margin-bottom: 20px;
   @media (max-width: 768px) {
@@ -74,5 +79,7 @@ export const Price = styled.span`
     margin-bottom: 10px;
     margin-top: 10px;
     font-size: 2rem;
+    justify-content: center;
+
   }
 `
