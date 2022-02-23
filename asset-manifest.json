@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Fashionboat/static/js/main.18486890.js",
+    "main.js": "/Fashionboat/static/js/main.cfec1337.js",
     "static/js/787.7e45abed.chunk.js": "/Fashionboat/static/js/787.7e45abed.chunk.js",
     "static/media/pngfind.com-champagne-glass-png-30808.png": "/Fashionboat/static/media/pngfind.com-champagne-glass-png-30808.b50af4a84f9e7e0b92bd.png",
     "static/media/Mugatu.png": "/Fashionboat/static/media/Mugatu.e85b2fc6cfbd205c4ec8.png",
@@ -15,10 +15,10 @@
     "static/media/pngfind.com-vip-png-352034.png": "/Fashionboat/static/media/pngfind.com-vip-png-352034.f0ec256ba52e95d51005.png",
     "static/media/FashionBoat_logo.png": "/Fashionboat/static/media/FashionBoat_logo.ed1458747a5b265baa35.png",
     "index.html": "/Fashionboat/index.html",
-    "main.18486890.js.map": "/Fashionboat/static/js/main.18486890.js.map",
+    "main.cfec1337.js.map": "/Fashionboat/static/js/main.cfec1337.js.map",
     "787.7e45abed.chunk.js.map": "/Fashionboat/static/js/787.7e45abed.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.18486890.js"
+    "static/js/main.cfec1337.js"
   ]
 }
