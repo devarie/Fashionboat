@@ -6,7 +6,7 @@ import FrFashion from '../png/pngfind.com-fashion-png-324784.png'
 import Hooker from '../png/pngfind.com-hooker-png-5361315.png'
 import Vip2 from '../png/pngfind.com-vip-png-352034.png'
 import Zoolander from '../png/zoolander_transparent.png'
-import Meetlint from '../png/kisspng-tape-measures-measurement-measuring-instrument-cli-tape-measure-5adb226a18f486.6475775515243106341022.png'
+import Meetlint from '../png/measurementlint.png'
 import Naaimachine from '../png/sewing-machine-gabecd56f9_640.png'
 
 const ParticlesBackground = () => {
