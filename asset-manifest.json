@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.js": "/Fashionboat/static/js/main.68289f0f.js",
+    "main.js": "/Fashionboat/static/js/main.5435fd80.js",
     "static/js/787.7e45abed.chunk.js": "/Fashionboat/static/js/787.7e45abed.chunk.js",
     "static/media/pngfind.com-champagne-glass-png-30808.png": "/Fashionboat/static/media/pngfind.com-champagne-glass-png-30808.b50af4a84f9e7e0b92bd.png",
     "static/media/Mugatu.png": "/Fashionboat/static/media/Mugatu.e85b2fc6cfbd205c4ec8.png",
     "static/media/Excelsior-dock.JPEG": "/Fashionboat/static/media/Excelsior-dock.1560f34e9d4beb3406db.JPEG",
     "static/media/pngfind.com-hooker-png-5361315.png": "/Fashionboat/static/media/pngfind.com-hooker-png-5361315.a5abc5b69a698064d9b7.png",
-    "static/media/pngfind.com-vip-png-1138.png": "/Fashionboat/static/media/pngfind.com-vip-png-1138.037f3ef952a3b1bb53c5.png",
     "static/media/pngfind.com-fashion-png-324784.png": "/Fashionboat/static/media/pngfind.com-fashion-png-324784.07c28faab3cad5860c3b.png",
     "static/media/Excelsior-kayak.JPEG": "/Fashionboat/static/media/Excelsior-kayak.291f52efc52d29194de5.JPEG",
-    "static/media/pngfind.com-champagne-glass-png-31800.png": "/Fashionboat/static/media/pngfind.com-champagne-glass-png-31800.529d5aea360557424f32.png",
+    "static/media/sewing-machine-gabecd56f9_640.png": "/Fashionboat/static/media/sewing-machine-gabecd56f9_640.919863ef9bb7218576b2.png",
     "static/media/karl_lagerfeld.png": "/Fashionboat/static/media/karl_lagerfeld.6e16de1d6c82b1dcb821.png",
     "static/media/zoolander_transparent.png": "/Fashionboat/static/media/zoolander_transparent.905e0435e34becde66a0.png",
+    "static/media/Measure-Centimeter-Tape-Transparent-PNG.png": "/Fashionboat/static/media/Measure-Centimeter-Tape-Transparent-PNG.e8e9e64ccaaa82879416.png",
     "static/media/pngfind.com-vip-png-352034.png": "/Fashionboat/static/media/pngfind.com-vip-png-352034.f0ec256ba52e95d51005.png",
     "static/media/FashionBoat_logo.png": "/Fashionboat/static/media/FashionBoat_logo.ed1458747a5b265baa35.png",
     "index.html": "/Fashionboat/index.html",
-    "main.68289f0f.js.map": "/Fashionboat/static/js/main.68289f0f.js.map",
+    "main.5435fd80.js.map": "/Fashionboat/static/js/main.5435fd80.js.map",
     "787.7e45abed.chunk.js.map": "/Fashionboat/static/js/787.7e45abed.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.68289f0f.js"
+    "static/js/main.5435fd80.js"
   ]
 }
