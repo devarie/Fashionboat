@@ -9,7 +9,7 @@ export const Pricing = styled.div`
   align-self: center;
   margin-right: 20px;
   margin-left: 20px;
-  animation-duration: 3.7s;
+  animation-duration: 2.5s;
   animation-name: slidein;
   backface-visibility: hidden;
 
@@ -28,8 +28,8 @@ export const Pricing = styled.div`
   }
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
-    margin: 100px 100px 250px 100px;
-    grid-gap: 180px;
+    margin: 100px 10px 250px 10px;
+    grid-gap: 100px;
   }
 `
 
@@ -65,6 +65,7 @@ export const PricingFeatures = styled.ul`
   text-align: center;
   list-style: none;
   margin-bottom: 20px;
+  margin-right: 50px;
   @media (max-width: 768px) {
     margin-bottom: 1px;
   }

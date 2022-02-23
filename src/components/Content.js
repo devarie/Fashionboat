@@ -19,7 +19,7 @@ export default function PricingPage() {
         <PricingCard>
           <PricingTitle>Open from 19:00</PricingTitle>
           <p>
-            <Price>Golden Hour@20:00</Price>
+            <Price>GOLDEN HOUR@20:00</Price>
           </p>{' '}
           <PricingFeatures>
             <li>Skinny Bitch drinks</li>
@@ -29,9 +29,9 @@ export default function PricingPage() {
           {/* <Button primary>Get Started</Button> */}
         </PricingCard>
         <PricingCard>
-          <PricingTitle>Dior Bitch</PricingTitle>
+          <PricingTitle>Details</PricingTitle>
           <p>
-            <Price>$35 inclusief fotografie</Price>
+            <Price>$35 SHOOT INCLUDED</Price>
           </p>
           <PricingFeatures>
             <li>Vintage ou de Future</li>

@@ -3,7 +3,7 @@ import logo from '../png/FashionBoat_logo.png'
 const StyledHeader = styled.div`
   display: flex;
   width: 100%;
-  height: 14rem;
+  height: 24rem;
   justify-content: center;
   align-items: center;
   margin-top: 150px;
@@ -30,7 +30,7 @@ const HeaderImg = styled.img.attrs({
 })`
 width: 750px;
 height: 450px;
-animation-duration: 3.7s;
+animation-duration: 3.3s;
 animation-name: slidein;
 backface-visibility: hidden;
 
