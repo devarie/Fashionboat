@@ -29,7 +29,7 @@ export default function PricingPage() {
           {/* <Button primary>Get Started</Button> */}
         </PricingCard>
         <PricingCard>
-          <PricingTitle>Details</PricingTitle>
+          <PricingTitle>Des détails</PricingTitle>
           <p>
             <Price>$35 SHOOT INCLUDED</Price>
           </p>

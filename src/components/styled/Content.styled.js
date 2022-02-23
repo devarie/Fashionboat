@@ -12,18 +12,19 @@ export const Pricing = styled.div`
   animation-duration: 2.5s;
   animation-name: slidein;
   backface-visibility: hidden;
+  justify-content: center;
 
   @keyframes slidein {
     from {
       margin-left: 100%;
-      width: 100%;
-      height: 100%;
+      width: 50%;
+      height: 50%;
     }
 
     to {
       margin-left: 0%;
-      width: 100%;
-      height: 100%;
+      width: 50%;
+      height: 50%;
     }
   }
   @media (max-width: 768px) {
@@ -42,7 +43,7 @@ export const PricingCard = styled.div`
   border-radius: 120px;
   box-shadow: 2px 2px 2px #ccc;
   text-align: center;
-  justify-content: center;
+  justify-content: space-between;
 
   &:hover {
     box-shadow: 6px 6px 6px #ccc;
