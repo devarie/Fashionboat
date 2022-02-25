@@ -8,7 +8,10 @@ import Vip2 from '../png/pngfind.com-vip-png-352034.png'
 import Zoolander from '../png/zoolander_transparent.png'
 import Meetlint from '../png/Measure-Centimeter-Tape-Transparent-PNG.png'
 import Naaimachine from '../png/sewing-machine-gabecd56f9_640.png'
-
+import Gangsterhat from '../png/gangster-hat-png-1-Transparent-Images.png'
+import Policeman from '../png/policeman_PNG89076.png'
+import Crystal from '../png/louis-roederer-champagne-cristal-brut-bottle-alcohol-beverage-drink-transparent-png-119561.png'
+import LadyG from '../png/lady gaga.png'
 const ParticlesBackground = () => {
   return (
     <div className='App'>
@@ -210,6 +213,46 @@ const ParticlesBackground = () => {
                   },
                   {
                     src: `${Naaimachine}`,
+                    width: 182,
+                    height: 182,
+                    particles: {
+                      size: {
+                        value: 106,
+                      },
+                    },
+                  },
+                  {
+                    src: `${Gangsterhat}`,
+                    width: 182,
+                    height: 182,
+                    particles: {
+                      size: {
+                        value: 106,
+                      },
+                    },
+                  },
+                  {
+                    src: `${Policeman}`,
+                    width: 182,
+                    height: 182,
+                    particles: {
+                      size: {
+                        value: 106,
+                      },
+                    },
+                  },
+                  {
+                    src: `${Crystal}`,
+                    width: 182,
+                    height: 182,
+                    particles: {
+                      size: {
+                        value: 106,
+                      },
+                    },
+                  },
+                  {
+                    src: `${LadyG}`,
                     width: 182,
                     height: 182,
                     particles: {

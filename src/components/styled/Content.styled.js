@@ -13,7 +13,6 @@ export const Pricing = styled.div`
   animation-name: slidein;
   backface-visibility: hidden;
   justify-content: center;
-
   @keyframes slidein {
     from {
       margin-left: 100%;
@@ -38,12 +37,27 @@ export const PricingCard = styled.div`
   align-items: center;
   color: black;
   background: mediumspringgreen;
-  opacity: 0.88;
+  opacity: 0.98;
   padding: 10px;
   border-radius: 120px;
   box-shadow: 2px 2px 2px #ccc;
   text-align: center;
   justify-content: space-between;
+  display: inline-block;
+  /* #1 */
+  border: 15px solid hsl(0, 0%, 40%);
+  
+  /* #2 */
+  padding: 5px;
+  /* background: hsl(0, 0%, 20%); */
+  
+  /* #3 */
+  outline: 15px solid hsla(305, 69%, 74%, 0.75);
+  
+  /* #4 AND INFINITY!!! (CSS3 only) */
+  box-shadow:
+      0 0 0 15px hsla(74, 100%, 61%, 0.86),
+      0 0 0 39px hsla(203, 100%, 41%, 0.87);
 
   &:hover {
     box-shadow: 6px 6px 6px #ccc;
