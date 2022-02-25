@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Fashionboat/static/js/main.8ae7727a.js",
+    "main.js": "/Fashionboat/static/js/main.204ef12c.js",
     "static/js/787.7e45abed.chunk.js": "/Fashionboat/static/js/787.7e45abed.chunk.js",
     "static/media/pngfind.com-champagne-glass-png-30808.png": "/Fashionboat/static/media/pngfind.com-champagne-glass-png-30808.b50af4a84f9e7e0b92bd.png",
     "static/media/louis-roederer-champagne-cristal-brut-bottle-alcohol-beverage-drink-transparent-png-119561.png": "/Fashionboat/static/media/louis-roederer-champagne-cristal-brut-bottle-alcohol-beverage-drink-transparent-png-119561.362d6419a6f15d4468d9.png",
@@ -20,10 +20,10 @@
     "static/media/FashionBoat_logo.png": "/Fashionboat/static/media/FashionBoat_logo.ed1458747a5b265baa35.png",
     "static/media/artist.png": "/Fashionboat/static/media/artist.039a38100b631a8b6916.png",
     "index.html": "/Fashionboat/index.html",
-    "main.8ae7727a.js.map": "/Fashionboat/static/js/main.8ae7727a.js.map",
+    "main.204ef12c.js.map": "/Fashionboat/static/js/main.204ef12c.js.map",
     "787.7e45abed.chunk.js.map": "/Fashionboat/static/js/787.7e45abed.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.8ae7727a.js"
+    "static/js/main.204ef12c.js"
   ]
 }
