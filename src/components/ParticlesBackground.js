@@ -118,7 +118,7 @@ const ParticlesBackground = () => {
               },
             },
             shape: {
-              type: ['circle', 'image', 'polygon', 'character'],
+              type: ['circle', 'image', 'character'],
               options: {
                 image: [
                   {
