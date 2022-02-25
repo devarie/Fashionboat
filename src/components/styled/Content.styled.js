@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import artist from '../../png/artist.png'
 
 export const Pricing = styled.div`
   display: grid;
@@ -34,30 +35,34 @@ export const Pricing = styled.div`
 `
 
 export const PricingCard = styled.div`
+  background: url(${artist}) no-repeat left top, linear-gradient(to bottom right, #ffc300, #73ff00 80%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 20x 40px 200px 200px #ff00b7;  
+
   align-items: center;
-  color: black;
-  background: mediumspringgreen;
+  color: mediumslateblue;
+  font-weight: 700;
   opacity: 0.98;
   padding: 10px;
   border-radius: 120px;
-  box-shadow: 2px 2px 2px #ccc;
   text-align: center;
   justify-content: space-between;
   display: inline-block;
   /* #1 */
-  border: 15px solid hsl(0, 0%, 40%);
+  border: 15px solid hsl(5, 0%, 40%);
   
   /* #2 */
   padding: 5px;
   /* background: hsl(0, 0%, 20%); */
   
   /* #3 */
-  outline: 15px solid hsla(305, 69%, 74%, 0.75);
+  outline: 15px solid hsla(275, 69%, 74%, 0.75);
   
   /* #4 AND INFINITY!!! (CSS3 only) */
   box-shadow:
-      0 0 0 15px hsla(74, 100%, 61%, 0.86),
-      0 0 0 39px hsla(203, 100%, 41%, 0.87);
+      0 0 0 15px hsla(324, 100%, 61%, 0.86),
+      0 0 0 39px hsla(63, 100%, 41%, 0.87);
 
   &:hover {
     box-shadow: 6px 6px 6px #ccc;
@@ -67,7 +72,7 @@ export const PricingCard = styled.div`
 
 export const PricingTitle = styled.h1`
   text-align: center;
-  font-weight: 300;
+  font-weight: 700;
   margin: auto;
   justify-content: center;
 `

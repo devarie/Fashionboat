@@ -36,7 +36,7 @@ const ParticlesBackground = () => {
               y: 100,
             },
             rate: {
-              quantity: 1,
+              quantity: 0.2,
               delay: 0.25,
             },
           },
@@ -61,7 +61,7 @@ const ParticlesBackground = () => {
               value: 0,
             },
             opacity: {
-              value: 0.5,
+              value: 0.9,
             },
             rotate: {
               value: {

@@ -23,8 +23,8 @@ export default function PricingPage() {
           </p>{' '}
           <PricingFeatures>
             <li>Skinny Bitch drinks</li>
-            <li>Eikensla en bleekselderij</li>
-            <li>Fruit en groente</li>
+            <li>Jalousie est normale</li>
+            <li>l'arrogance n'est pas désapprouver</li>
           </PricingFeatures>
           {/* <Button primary>Get Started</Button> */}
         </PricingCard>
