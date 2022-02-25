@@ -50,19 +50,20 @@ export const PricingCard = styled.div`
   justify-content: space-between;
   display: inline-block;
   /* #1 */
-  border: 15px solid hsl(5, 0%, 40%);
+  border: 15px solid hsl(5, 0%, 40%, 0.94);
   
   /* #2 */
   padding: 5px;
   /* background: hsl(0, 0%, 20%); */
   
   /* #3 */
-  outline: 15px solid hsla(275, 69%, 74%, 0.75);
+  outline: 15px solid hsla(275, 69%, 74%, 0.55);
   
   /* #4 AND INFINITY!!! (CSS3 only) */
   box-shadow:
-      0 0 0 15px hsla(324, 100%, 61%, 0.86),
-      0 0 0 39px hsla(63, 100%, 41%, 0.87);
+      0 0 0 25px hsla(324, 100%, 61%, 0.66),
+      0 0 0 89px hsla(63, 100%, 41%, 0.27);
+      
 
   &:hover {
     box-shadow: 6px 6px 6px #ccc;
