@@ -36,8 +36,8 @@ const ParticlesBackground = () => {
               y: 100,
             },
             rate: {
-              quantity: 0.2,
-              delay: 0.25,
+              quantity: 0.02,
+              delay: 0.6,
             },
           },
           particles: {
@@ -55,7 +55,7 @@ const ParticlesBackground = () => {
                 top: 'none',
                 default: 'destroy',
               },
-              speed: { min: 8, max: 20 },
+              speed: { min: 4, max: 18 },
             },
             number: {
               value: 0,
@@ -71,7 +71,7 @@ const ParticlesBackground = () => {
               direction: 'random',
               animation: {
                 enable: true,
-                speed: 0.2,
+                speed: 0.4,
               },
             },
             tilt: {
@@ -83,7 +83,7 @@ const ParticlesBackground = () => {
               },
               animation: {
                 enable: true,
-                speed: 0.5,
+                speed: 0.1,
               },
             },
             size: {
@@ -227,7 +227,7 @@ const ParticlesBackground = () => {
                     height: 182,
                     particles: {
                       size: {
-                        value: 106,
+                        value: 1,
                       },
                     },
                   },
@@ -237,7 +237,7 @@ const ParticlesBackground = () => {
                     height: 182,
                     particles: {
                       size: {
-                        value: 106,
+                        value: 1,
                       },
                     },
                   },
@@ -247,7 +247,7 @@ const ParticlesBackground = () => {
                     height: 182,
                     particles: {
                       size: {
-                        value: 106,
+                        value: 1,
                       },
                     },
                   },
@@ -257,7 +257,7 @@ const ParticlesBackground = () => {
                     height: 182,
                     particles: {
                       size: {
-                        value: 106,
+                        value: 1,
                       },
                     },
                   },
@@ -267,7 +267,7 @@ const ParticlesBackground = () => {
                     height: 32,
                     particles: {
                       size: {
-                        value: 16,
+                        value: 1,
                       },
                     },
                   },
@@ -277,7 +277,7 @@ const ParticlesBackground = () => {
                     height: 32,
                     particles: {
                       size: {
-                        value: 16,
+                        value: 1,
                       },
                     },
                   },
@@ -287,7 +287,7 @@ const ParticlesBackground = () => {
                     height: 32,
                     particles: {
                       size: {
-                        value: 16,
+                        value: 1,
                       },
                     },
                   },
