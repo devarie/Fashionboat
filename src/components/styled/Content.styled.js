@@ -35,7 +35,7 @@ export const Pricing = styled.div`
 `
 
 export const PricingCard = styled.div`
-  background-image: linear-gradient(to bottom, rgba(45, 146, 52, 0.52), rgba(117, 319, 93, 0.73)), url(${artist});
+  background-image: linear-gradient(to bottom, rgba(45, 146, 52, 0.52), rgba(147, 319, 93, 0.73)), url(${artist});
   /* background: url(${artist}) no-repeat left top, linear-gradient(to bottom right, #ffc300, #73ff00 80%); */
 
   background-size: contain;
@@ -72,7 +72,7 @@ export const PricingCard = styled.div`
   @media (max-width: 768px) {
     background-image: linear-gradient(to bottom, rgba(45, 146, 52, 0.52), rgba(117, 319, 93, 0.73)), none;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: -10px;
     justify-content: center;
   }
 `

@@ -12,7 +12,7 @@ export default function PricingPage() {
           <PricingFeatures>
             <li>Oude Houthavens</li>
             <li>Van Diemenkade 18</li>
-            <li>Bateau Excelsior</li>
+            <li>Yacht Excelsior</li>
           </PricingFeatures>
           {/* <Button>Get Started</Button> */}
         </PricingCard>
@@ -25,18 +25,19 @@ export default function PricingPage() {
             <li>Skinny Bitch drinks</li>
             <li>Jalousie est normale</li>
             <li>l'arrogance n'est pas désapprouver</li>
+
           </PricingFeatures>
           {/* <Button primary>Get Started</Button> */}
         </PricingCard>
         <PricingCard>
           <PricingTitle>Des détails</PricingTitle>
           <p>
-            <Price>$35 SHOOT INCLUDED</Price>
+            <Price>Entree €35</Price>
           </p>
           <PricingFeatures>
-            <li>Vintage ou de Future</li>
-            <li>Haute couture</li>
-            <li>La Dior bitch est fanatique..</li>
+            <li>#Haute couture</li>
+            <li>#Yachting</li>
+            <li>La Dior bitch est fanatique....</li>
           </PricingFeatures>
           {/* <Button>Get Started</Button> */}
         </PricingCard>
