@@ -33,7 +33,7 @@ const ParticlesBackground = () => {
           emitters: {
             position: {
               x: 50,
-              y: 100,
+              y: 60,
             },
             rate: {
               quantity: 0.02,
@@ -66,7 +66,7 @@ const ParticlesBackground = () => {
             rotate: {
               value: {
                 min: 5,
-                max: 540,
+                max: 3609,
               },
               direction: 'random',
               animation: {
@@ -79,7 +79,7 @@ const ParticlesBackground = () => {
               enable: true,
               value: {
                 min: 0,
-                max: 360,
+                max: 0,
               },
               animation: {
                 enable: true,
@@ -127,7 +127,7 @@ const ParticlesBackground = () => {
                     height: 62,
                     particles: {
                       size: {
-                        value: 161,
+                        value: 1,
                       },
                     },
                   },
@@ -137,17 +137,17 @@ const ParticlesBackground = () => {
                     height: 62,
                     particles: {
                       size: {
-                        value: 161,
+                        value: 1,
                       },
                     },
                   },
                   {
                     src: `${Zoolander}`,
-                    width: 92,
-                    height: 92,
+                    width: 52,
+                    height: 52,
                     particles: {
                       size: {
-                        value: 161,
+                        value: 1,
                       },
                     },
                   },
@@ -162,22 +162,12 @@ const ParticlesBackground = () => {
                     },
                   },
                   {
-                    src: `${Vip2}`,
-                    width: 32,
-                    height: 32,
-                    particles: {
-                      size: {
-                        value: 76,
-                      },
-                    },
-                  },
-                  {
                     src: `${Cristalglass}`,
                     width: 32,
                     height: 32,
                     particles: {
                       size: {
-                        value: 146,
+                        value: 1,
                       },
                     },
                   },
@@ -187,7 +177,7 @@ const ParticlesBackground = () => {
                     height: 32,
                     particles: {
                       size: {
-                        value: 126,
+                        value: 1,
                       },
                     },
                   },
@@ -197,7 +187,7 @@ const ParticlesBackground = () => {
                     height: 32,
                     particles: {
                       size: {
-                        value: 106,
+                        value: 1,
                       },
                     },
                   },
@@ -207,9 +197,9 @@ const ParticlesBackground = () => {
                     height: 182,
                     particles: {
                       size: {
-                        value: 106,
-                      },
+                        value: 1,
                     },
+                  },
                   },
                   {
                     src: `${Naaimachine}`,
@@ -217,7 +207,7 @@ const ParticlesBackground = () => {
                     height: 182,
                     particles: {
                       size: {
-                        value: 106,
+                        value: 1,
                       },
                     },
                   },
@@ -310,7 +300,7 @@ const ParticlesBackground = () => {
                     style: '',
                     weight: 400,
                     size: {
-                      value: 162,
+                      value: 4,
                     },
                   },
                 ],
