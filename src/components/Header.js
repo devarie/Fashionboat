@@ -28,11 +28,12 @@ const Title = styled.h1`
 const HeaderImg = styled.img.attrs({
   src: `${logo}`
 })`
-width: 750px;
-height: 450px;
+width: 400px;
+height: 400px;
 animation-duration: 3.3s;
 animation-name: slidein;
 backface-visibility: hidden;
+margin-top: 76px;
 
 @keyframes slidein {
   from {
@@ -48,8 +49,7 @@ backface-visibility: hidden;
   }
 }
 @media (max-width: 768px) {
-width: 350px;
-height: 210px;
+width: auto;
 }`
 
 export default function Header() {

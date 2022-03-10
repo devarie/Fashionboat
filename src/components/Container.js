@@ -14,7 +14,7 @@ export const Container = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   @media (max-width: 768px) {
-    background:     linear-gradient(to right, rgba(245, 246, 252, 0.12), rgba(117, 19, 93, 0.53)),
+    background:     linear-gradient(to right, rgba(245, 246, 252, 0.12), rgba(117, 19, 93, 0.73)),
 url(${ExcelsiorkayakSMALL});
     background-position: left 200px, top 20px;
   }

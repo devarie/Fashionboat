@@ -29,7 +29,7 @@ export const Pricing = styled.div`
   }
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
-    margin: 100px 10px 250px 10px;
+    margin: 200px 10px 250px 10px;
     grid-gap: 100px;
   }
 `

@@ -58,7 +58,7 @@ const ParticlesBackground = () => {
               speed: { min: 4, max: 18 },
             },
             number: {
-              value: 0,
+              value: 10,
             },
             opacity: {
               value: 0.9,
@@ -127,7 +127,7 @@ const ParticlesBackground = () => {
                     height: 62,
                     particles: {
                       size: {
-                        value: 1,
+                        value: 72,
                       },
                     },
                   },
@@ -137,7 +137,7 @@ const ParticlesBackground = () => {
                     height: 62,
                     particles: {
                       size: {
-                        value: 1,
+                        value: 72,
                       },
                     },
                   },
@@ -147,7 +147,7 @@ const ParticlesBackground = () => {
                     height: 52,
                     particles: {
                       size: {
-                        value: 1,
+                        value: 78,
                       },
                     },
                   },
@@ -157,7 +157,7 @@ const ParticlesBackground = () => {
                     height: 32,
                     particles: {
                       size: {
-                        value: 46,
+                        value: 26,
                       },
                     },
                   },
@@ -167,7 +167,7 @@ const ParticlesBackground = () => {
                     height: 32,
                     particles: {
                       size: {
-                        value: 1,
+                        value: 61,
                       },
                     },
                   },
@@ -177,7 +177,7 @@ const ParticlesBackground = () => {
                     height: 32,
                     particles: {
                       size: {
-                        value: 1,
+                        value: 61,
                       },
                     },
                   },
@@ -187,7 +187,7 @@ const ParticlesBackground = () => {
                     height: 32,
                     particles: {
                       size: {
-                        value: 1,
+                        value: 33,
                       },
                     },
                   },
@@ -197,7 +197,7 @@ const ParticlesBackground = () => {
                     height: 182,
                     particles: {
                       size: {
-                        value: 1,
+                        value: 77,
                     },
                   },
                   },
@@ -207,7 +207,7 @@ const ParticlesBackground = () => {
                     height: 182,
                     particles: {
                       size: {
-                        value: 1,
+                        value: 66,
                       },
                     },
                   },
@@ -217,7 +217,7 @@ const ParticlesBackground = () => {
                     height: 182,
                     particles: {
                       size: {
-                        value: 1,
+                        value: 67,
                       },
                     },
                   },
@@ -227,7 +227,7 @@ const ParticlesBackground = () => {
                     height: 182,
                     particles: {
                       size: {
-                        value: 1,
+                        value: 77,
                       },
                     },
                   },
@@ -237,7 +237,7 @@ const ParticlesBackground = () => {
                     height: 182,
                     particles: {
                       size: {
-                        value: 1,
+                        value: 77,
                       },
                     },
                   },
@@ -247,7 +247,7 @@ const ParticlesBackground = () => {
                     height: 182,
                     particles: {
                       size: {
-                        value: 1,
+                        value: 77,
                       },
                     },
                   },
