@@ -66,16 +66,16 @@ const ParticlesBackground = () => {
             rotate: {
               value: {
                 min: 5,
-                max: 3609,
+                max: 360,
               },
-              direction: 'random',
+              direction: 'right',
               animation: {
                 enable: true,
                 speed: 0.4,
               },
             },
             tilt: {
-              direction: 'random',
+              direction: 'right',
               enable: true,
               value: {
                 min: 0,
@@ -91,10 +91,10 @@ const ParticlesBackground = () => {
             },
             roll: {
               darken: {
-                enable: true,
+                enable: false,
                 value: 5,
               },
-              enable: true,
+              enable: false,
               speed: {
                 min: 1,
                 max: 3,
