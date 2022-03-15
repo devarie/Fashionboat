@@ -11,7 +11,8 @@ import Naaimachine from '../png/sewing-machine-gabecd56f9_640.png'
 import Gangsterhat from '../png/gangster-hat-png-1-Transparent-Images.png'
 import Policeman from '../png/policeman_PNG89076.png'
 import Crystal from '../png/louis-roederer-champagne-cristal-brut-bottle-alcohol-beverage-drink-transparent-png-119561.png'
-import LadyG from '../png/lady gaga.png'
+import LadyG from '../png/lady_gaga.png'
+import LadyGyellow from '../png/Lady-Gaga-Free-Download-PNG.png'
 const ParticlesBackground = () => {
   return (
     <div className='App'>
@@ -66,7 +67,7 @@ const ParticlesBackground = () => {
             rotate: {
               value: {
                 min: 5,
-                max: 360,
+                max: 20,
               },
               direction: 'right',
               animation: {
@@ -152,6 +153,26 @@ const ParticlesBackground = () => {
                     },
                   },
                   {
+                    src: `${LadyGyellow}`,
+                    width: 52,
+                    height: 52,
+                    particles: {
+                      size: {
+                        value: 78,
+                      },
+                    },
+                  },
+                  {
+                    src: `${LadyG}`,
+                    width: 52,
+                    height: 52,
+                    particles: {
+                      size: {
+                        value: 78,
+                      },
+                    },
+                  },
+                  {
                     src: 'https://particles.js.org/images/fruits/lemon.png',
                     width: 32,
                     height: 32,
@@ -198,8 +219,8 @@ const ParticlesBackground = () => {
                     particles: {
                       size: {
                         value: 77,
+                      },
                     },
-                  },
                   },
                   {
                     src: `${Naaimachine}`,
@@ -296,7 +317,7 @@ const ParticlesBackground = () => {
                     font: 'Verdana',
                     width: 162,
                     height: 162,
-                    value: [ '🤡', '🦄', '⭐️',],
+                    value: ['🤡', '🦄', '⭐️'],
                     style: '',
                     weight: 400,
                     size: {
