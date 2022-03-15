@@ -49,7 +49,7 @@ margin-top: 76px;
   }
 }
 @media (max-width: 768px) {
-width: auto;
+width: 375px;
 }`
 
 export default function Header() {
